@@ -1,0 +1,46 @@
+/* Styl dla głównego kontenera */
+.App {
+  text-align: center;
+}
+
+/* Style dla formularza */
+.contact-form {
+  margin-top: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #008CBA; /* Niebieski */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #005f5f;
+}
+
+/* Style dla galerii */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 100px; /* Możesz dostosować rozmiar miniatur */
+  border-radius: 5px; /* Zaokrąglone rogi */
+}
